@@ -1,0 +1,26 @@
+/*
+Fundamentos da Programação de Computadores
+Capitulo 1 - Estrutura Sequencial
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+#define pi 3.141592653589793
+
+int main(){
+
+    float raio, comprimento, area, volume;
+
+    scanf("%f",&raio);
+
+    comprimento = 2*pi*raio;
+    area = pi*pow(raio,2);
+    volume = (3 * pi * pow(raio,3)) / 4;
+    printf("%.2f\n",comprimento);
+    printf("%.2f\n",area);
+    printf("%.2f\n",volume);
+
+    return 0;
+
+}
