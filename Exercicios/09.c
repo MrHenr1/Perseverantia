@@ -1,8 +1,3 @@
-/*
-Fundamentos da Programação de Computadores
-Capitulo 1 - Estrutura Sequencial
-*/
-
 #include <stdio.h>
 
 int main(){
